@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>My Sidepanel</title>
+ <link href="tailwind.css" rel="stylesheet">
+ <style>
+ </style>
+ <script src="sidepanel.js"></script>
+ </head>
+ <body class="p-5 bg-gray-100 h-screen">
+   <div class="mb-5">
+     <label for="toggleTailwind" class="font-bold text-lg">Toggle Tailwind CSS:</label>
+     <input id="toggleTailwind" type="checkbox" class="ml-2"/>
+   </div>
+   <div class="mb-5 h-4/6">
+     <iframe id="myIframe" class="w-full h-full border-none"></iframe>
+   </div>
+   <div class="h-1/5">
+     <textarea id="myInput" placeholder="Type some HTML..." class="w-full h-full border-gray-300 border rounded-lg p-3"></textarea>
+   </div>
+ </body>
+</html>
